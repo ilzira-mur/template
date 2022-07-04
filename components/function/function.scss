@@ -7,7 +7,7 @@
         width: 100%;
         max-width: 1920px;
         min-height: 838px;
-        background-image: linear-gradient(#ECECEC 0%, #FBFBFB 100%);
+        background-image: linear-gradient(#ececec 0%, #fbfbfb 100%);
         display: flex;
         flex-direction: row;
     }
@@ -59,7 +59,7 @@
         margin-right: 10px;
         margin-bottom: 17px;
         position: relative;
-        
+
         &:last-of-type {
             margin-bottom: 0;
         }
@@ -99,7 +99,7 @@
 
     &__back-img {
         position: relative;
-        left:204px;
+        left: 204px;
         top: 121px;
         overflow: hidden;
     }

@@ -1,11 +1,11 @@
 include /components/icon/icon
 
-mixin video()
+mixin video
     +b.video
         +e.inner 
             +e.image-col
                 +e.image-wrapper.link
-                    +e.IMG(src='~images/video.jpg' alt="image").image
+                    +e.IMG.image(src='~images/video.jpg', alt='image')
                     +icon('as', 191, 191).video__play
             +e.text-col
                 +e.wrapper 

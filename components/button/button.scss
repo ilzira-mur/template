@@ -16,7 +16,7 @@
         line-height: 26px;
         margin: 0 58px 0 0;
         position: relative;
-    
+
         &:after {
             content: '';
             position: absolute;
@@ -27,8 +27,8 @@
             right: -29px;
         }
     }
-    
-        &__arrow-right {
-            fill: $arrowHeader;
-        }
+
+    &__arrow-right {
+        fill: $arrowHeader;
+    }
 }

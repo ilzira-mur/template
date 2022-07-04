@@ -1,22 +1,31 @@
 include /components/icon/icon
+include /components/select/select
 
-mixin header()
+mixin header
     +b.HEADER.header
         +e.inner
-            +e.A.logo-link.link(href='/' target="_self")
+            +e.A.logo-link.link(href='/', target='_self')
                 +icon('logo').header__logo-icon
                 +e.logo-text Пресс <br> Индекс
             +e.wrapper
                 +e.UL.menu
                     +e.LI.menu-item
-                        +e.A.link.link(href='/' target="_self") Услуги
+                        +e.A.link.link(href='/', target='_self') Услуги
                     +e.LI.menu-item 
-                        +e.A.link.link(href='/' target="_self") Возможности
-                +e.contact
-                    +e.lable Ваш менеджер
-                    +e.A.tel.link(href='tel:+7 (495) 374 44 55' target="_self")  +7 (495) 374 44 55
-            +e.A.button.link(href='/' target="_self")
-                +e.P.btn-text Приобрести
-                +icon('arrow_right', 22, 18).header__arrow-right
-            +e.burger.link
-                +icon('burger', 37, 37)
+                        +e.A.link.link(href='/', target='_self') Возможности
+                //- +e.contact
+                //-     +e.lable Ваш менеджер
+                //-     +e.A.tel.link(
+                //-         href='tel:+7 (495) 374 44 55',
+                //-         target='_self'
+                //-     ) +7 (495) 374 44 55
+            //- +e.A.button.link(href='/' target="_self")
+            //-     +e.P.btn-text Приобрести
+            //-     +icon('arrow_right', 22, 18).header__arrow-right
+            //- +e.burger.link
+            //-     +icon('burger', 37, 37)
+            +b.select-wrap 
+                +b#select.SELECT.custom-select(name='select', placeholder='Ру')
+                    +b.OPTION(value='Ру') Ру
+                    +b.OPTION(value='En') En
+            +select

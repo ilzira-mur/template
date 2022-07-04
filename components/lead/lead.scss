@@ -132,10 +132,9 @@
         font-family: 'Roboto';
         font-size: 14px;
         line-height: 22px;
-        color: #3E4A86;
+        color: #3e4a86;
         margin: 0 24px 0 0;
     }
-
 }
 .slider {
     position: relative;
@@ -163,8 +162,6 @@
 .slide {
     display: flex;
     flex-direction: column;
-    
-
 
     &__image {
         width: 100%;
@@ -177,7 +174,7 @@
         font-weight: 500;
         font-size: 13px;
         line-height: 15px;
-        color: #4A4A4A;
+        color: #4a4a4a;
         margin-bottom: 20px;
     }
 
@@ -188,19 +185,13 @@
         line-height: 26px;
         margin: 0;
         margin-bottom: 30px;
-
-
     }
 
     &__about {
         font-family: 'Roboto';
         font-size: 14px;
         line-height: 22px;
-        color: #4F4F4F;
+        color: #4f4f4f;
         margin: 0;
     }
-
-    
-
-    
 }
